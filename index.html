@@ -15,20 +15,22 @@
     </style>
     <div id="container">
         <div id="sidebar">
-            <div class="titleContainer sidebarItem">
-                <svg class="dashboardIcon sidebarIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
-                </svg>
-                <div class="title">dashboard</div>
-            </div>
+
+            <a href="https://www.google.com">
+                <div class="title sidebarItems">
+                    <svg class="iconDashboard" viewBox="0 0 100 100">
+                        <use href="#iconDashboard"></use>
+                    </svg>dashboard
+                </div>
+            </a>
             <div class="empty"></div>
-            <div class="homeContainer sidebarItem">
-                <svg class="sidebarIcon homeIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path
-                        d="M19.07,4.93C17.22,3 14.66,1.96 12,2C9.34,1.96 6.79,3 4.94,4.93C3,6.78 1.96,9.34 2,12C1.96,14.66 3,17.21 4.93,19.06C6.78,21 9.34,22.04 12,22C14.66,22.04 17.21,21 19.06,19.07C21,17.22 22.04,14.66 22,12C22.04,9.34 21,6.78 19.07,4.93M17,12V18H13.5V13H10.5V18H7V12H5L12,5L19.5,12H17Z" />
-                </svg>
-                <div class="home">home</div>
-            </div>
+            <a href="">
+                <div class="home sidebarItems">
+                    <svg class="iconHome sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconHome"></use>
+                    </svg> home
+                </div>
+            </a>
             <div class="profile">profile</div>
             <div class="messages">messages</div>
             <div class="history">history</div>
@@ -46,8 +48,19 @@
             </div>
         </div>
     </div>
+    <svg>
+        <symbol id="iconDashboard">
+            <path d="M54.44,0V32.67H98V0M54.44,98H98V43.56H54.44M0,98H43.56V65.33H0M0,54.44H43.56V0H0Z" />
+        </symbol>
+        <symbol id="iconHome">
+            <path d="M84.8,15.48C75.73,6.02,63.19,0.93,50.16,1.12c-13.03-0.2-25.53,4.9-34.59,
+            14.36c-9.5,9.06-14.6,21.61-14.4,34.64c-0.2,13.03,4.9,25.53,14.36,34.59c9.06,9.5,21.61,14.6,
+            34.64,14.4c13.03,0.2,25.53-4.9,34.59-14.36c9.5-9.06,14.6-21.61,14.4-34.64C99.35,37.08,94.25,
+            24.54,84.8,15.48 M74.66,50.12v29.4H57.51v-24.5h-14.7v24.5H25.66v-29.4h-9.8l34.3-34.3l36.75,
+            34.3H74.66z" />
+        </symbol>
+    </svg>
 
 </body>
-
 
 </html>
