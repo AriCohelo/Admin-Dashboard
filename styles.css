@@ -24,9 +24,13 @@ body {
 }
 
 #sidebar div,
-svg,
 img {
     padding: 10px;
+}
+
+.iconDashboard {
+    height: 30px;
+    fill: white;
 }
 
 .sidebarItems {
@@ -38,23 +42,47 @@ img {
 .sidebarIcons {
     height: 25px;
     fill: white;
+    padding: 10px;
+}
+
+
+#headerRow1 {
+
+    align-items: center;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.headerIcons {
+    height: 25px;
+    fill: black;
+}
+
+button {
+    box-shadow: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.headerIcons.searchIcon {
+    height: 15px;
+
 }
 
 
 
-#header {
-    border: 5px solid red;
-
+#morganAvatar {
+    height: 50px;
 }
 
 #main {
     border: 5px solid yellow;
 }
 
-.iconDashboard {
-    height: 30px;
-    fill: white;
-}
 
 a {
     text-decoration: none;

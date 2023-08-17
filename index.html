@@ -17,38 +17,105 @@
         <div id="sidebar">
 
             <a href="https://www.google.com">
-                <div class="title sidebarItems">
+                <div class="sidebarItems">
                     <svg class="iconDashboard" viewBox="0 0 100 100">
-                        <use href="#iconDashboard"></use>
+                        <use href="#iconDashboard" />
                     </svg>dashboard
                 </div>
             </a>
             <div class="empty"></div>
             <a href="">
-                <div class="home sidebarItems">
-                    <svg class="iconHome sidebarIcons" viewbox="0 0 100 100">
-                        <use href="#iconHome"></use>
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconHome" />
                     </svg> home
                 </div>
             </a>
-            <div class="profile">profile</div>
-            <div class="messages">messages</div>
-            <div class="history">history</div>
-            <div class="tasks">tasks</div>
-            <div class="community">community</div>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconProfile" />
+                    </svg> profile
+                </div>
+            </a>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconMessages" />
+                    </svg> messages
+                </div>
+            </a>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconHistory" />
+                    </svg> history
+                </div>
+            </a>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconTasks" />
+                    </svg> tasks
+                </div>
+            </a>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconCommunity"></use>
+                    </svg> community
+                </div>
+            </a>
             <div class="empty"></div>
-            <div class="settings">settings</div>
-            <div class="support">support</div>
-            <div class="privacy">privacy</div>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconSettings" />
+                    </svg> settings
+                </div>
+            </a>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconSupport" />
+                    </svg> support
+                </div>
+            </a>
+            <a href="">
+                <div class="sidebarItems">
+                    <svg class="sidebarIcons" viewbox="0 0 100 100">
+                        <use href="#iconPrivacy" />
+                    </svg> privacy
+                </div>
+            </a>
         </div>
         <div class="mainContainer">
             <div id="header">
+                <div id="headerRow1">
+                    <!-- <svg class="headerIcons" viewbox="0 0 100 100">
+                        <use href="#searchIcon" />
+                    </svg>
+                    <input type="search"> -->
+                    <form action="" class="searchBar">
+                        <button type="submit">
+                            <svg class="headerIcons searchIcon" viewbox="0 0 100 100">
+                                <use href="#searchIcon" />
+                            </svg></button>
+                        <input type="text" placeholder="Search">
+                    </form>
+                    <svg class="headerIcons" viewbox="0 0 100 100">
+                        <use href="#iconNotification" />
+                    </svg>
+                    <img src="Avatars/MorganAvatar.png" alt="morgan" id="morganAvatar">
+                    <div>morgan oakley</div>
+                </div>
+
             </div>
             <div id="main">
             </div>
         </div>
     </div>
-    <svg>
+    <svg style="display: none;">
         <symbol id="iconDashboard">
             <path d="M54.44,0V32.67H98V0M54.44,98H98V43.56H54.44M0,98H43.56V65.33H0M0,54.44H43.56V0H0Z" />
         </symbol>
@@ -59,6 +126,71 @@
             24.54,84.8,15.48 M74.66,50.12v29.4H57.51v-24.5h-14.7v24.5H25.66v-29.4h-9.8l34.3-34.3l36.75,
             34.3H74.66z" />
         </symbol>
+        <symbol id="iconProfile">
+            <path d="M90.8,13.2H9.2c-4.5,0.2-8,3.7-8.2,8.2v57.2c0.2,4.5,3.7,8,8.2,8.2h81.7c4.5-0.2,8-3.7,
+            8.2-8.2V21.4C98.8,17,95.3,13.4,90.8,13.2 M90.8,78.6H9.2V21.4h81.7V78.6 M58.2,70.4v-5.1c0-6.8
+            -13.6-10.2-20.4-10.2s-20.4,3.4-20.4,10.2v5.1H58.2 M37.8,29.6c-5.6,0-10.2,4.6-10.2,10.2S32.1,50
+            ,37.8,50S48,45.4,48,39.8S43.4,29.6,37.8,29.6 M58.2,29.6v4.1h24.5v-4.1H58.2M58.2,37.8v4.1h24.5v
+            -4.1H58.2 M58.2,45.9V50h16.3v-4.1H58.2" />
+        </symbol>
+        <symbol id="iconMessages">
+            <path d="M89.09,31.18V71.27a8.94,8.94,0,0,1-8.91,8.91H17.82L0,98V17.82A8.94,8.94,0,0,1,8.91,
+            8.91h45a15,15,0,0,0-.45,4.45,15,15,0,0,0,.45,4.46h-45V71.27H80.18V35.19c3.12-.44,6.24-2.23,
+            8.91-4M62.36,13.36a13.37,13.37,0,1,0,26.73,0,13.37,13.37,0,0,0-26.73,0Z" />
+
+        </symbol>
+        <symbol id="iconHistory">
+            <path d="M59.3,31.3h-7v23.3l20,11.9l3.4-5.6l-16.3-9.7V31.3 M57,8C33.8,8,15,26.8,15,50H1l18.5
+            ,18.8L38.3,50h-14C24.3,32,39,17.3,57,17.3S89.7,32,89.7,50S75,82.7,57,82.7c-9,0-17.2-3.7-23.1
+            -9.6l-6.6,6.6C34.9,87.3,45.3,92,57,92c23.2,0,42-18.8,42-42S80.2,8,57,8" />
+        </symbol>
+        <symbol id="iconTasks">
+            <path d="M84.3,89.2H15.7V35.3h68.6 M84.3,10.8h-4.9V1h-9.8v9.8H30.4V1h-9.8v9.8h-4.9c-5.4,
+            0-9.8,4.4-9.8,9.8v68.6c0,5.4,4.4,9.8,9.8,9.8h68.6c5.4,0,9.8-4.4,9.8-9.8V20.6C94.1,15.2,
+            89.7,10.8,84.3,10.8 M72.2,50.3L67,45.1L43.1,69L32.7,58.6l-5.2,5.2l15.6,15.6L72.2,50.3z" />
+        </symbol>
+        <symbol id="iconCommunity">
+            <path d="M50,18.4c7.9,0,14.3,6.4,14.3,14.3S57.9,46.9,50,46.9s-14.3-6.4-14.3-14.3S42.1,18.4,
+            50,18.4 M21.4,28.6c2.3,0,4.4,0.6,6.2,1.7c-0.6,5.8,1.1,11.6,4.6,16.2c-2,3.9-6.1,6.6-10.9,
+            6.6c-6.8,0-12.2-5.5-12.2-12.2S14.7,28.6,21.4,28.6M78.6,28.6c6.8,0,12.2,5.5,12.2,12.2s-5.5,
+            12.2-12.2,12.2c-4.7,0-8.8-2.7-10.9-6.6c3.5-4.5,5.2-10.3,4.6-16.2C74.2,29.2,76.3,28.6,78.6,
+            28.6 M23.5,70.4c0-8.5,11.9-15.3,26.5-15.3S76.5,62,76.5,70.4v7.1H23.5V70.4 M1,77.6v-6.1C1,65.8,
+            8.7,61,19.2,59.6c-2.4,2.8-3.9,6.6-3.9,10.8v7.1H1 M99,77.6H84.7v-7.1c0-4.2-1.5-8-3.9-10.8C91.3,
+            61,99,65.8,99,71.4V77.6z" />
+        </symbol>
+        <symbol id="iconSettings">
+            <path d="M50,67.2c-9.5,0-17.2-7.7-17.2-17.2S40.5,32.8,50,32.8S67.2,40.5,67.2,50S59.5,67.2,50,
+            67.2 M86.4,54.8c0.2-1.6,0.3-3.1,0.3-4.8s-0.1-3.2-0.3-4.9l10.3-8c0.9-0.7,1.2-2.1,
+            0.6-3.1l-9.8-17c-0.6-1.1-1.9-1.5-3-1.1l-12.2,4.9c-2.5-1.9-5.2-3.6-8.3-4.8l-1.8-13C62.1,1.9,
+            61,1,59.8,1H40.2C39,1,38,1.9,37.8,3.1l-1.8,13c-3.1,1.2-5.7,2.9-8.3,4.8l-12.2-4.9c-1.1-0.4-2.4,
+            0-3,1.1L2.7,34c-0.6,1.1-0.3,2.4,0.6,3.1l10.3,8c-0.2,1.7-0.3,3.3-0.3,4.9s0.1,3.2,0.3,4.8L3.3,
+            62.9C2.3,63.6,2,64.9,2.7,66l9.8,17c0.6,1.1,1.9,1.5,3,1.1l12.2-4.9c2.5,2,5.2,3.6,8.3,4.9l1.8,
+            13C38,98.1,39,99,40.2,99h19.6c1.2,0,2.3-0.9,2.5-2.1l1.8-13c3.1-1.3,5.7-2.9,8.3-4.9l12.2,4.9c1.1,
+            0.4,2.4,0,3-1.1l9.8-17c0.6-1.1,0.3-2.4-0.6-3.1L86.4,54.8z" />
+        </symbol>
+        <symbol id="iconSupport">
+            <path d="M44.1,78.4h9.8V68.6H44.1v9.8M49,0A49,49,0,1,0,98,49,49,49,0,0,0,49,0m0,88.2A39.2,
+            39.2,0,1,1,88.2,49,39.25,39.25,0,0,1,49,88.2m0-68.6A19.61,19.61,0,0,0,29.4,39.2h9.8a9.8,
+            9.8,0,1,1,19.6,0c0,9.8-14.7,8.57-14.7,24.5h9.8c0-11,14.7-12.25,14.7-24.5A19.61,19.61,0,0,0,
+            49,19.6Z" />
+        </symbol>
+        <symbol id="iconPrivacy">
+            <path d="M40.09,49H71.27C68.91,67.31,56.66,83.66,40.09,88.73V49H8.91V23.61L40.09,9.76m0-9.76L0,
+            17.82V44.55C0,69.27,17.11,92.34,40.09,98c23-5.66,40.09-28.73,40.09-53.45V17.82Z" />
+        </symbol>
+        <symbol id="iconNotification">
+            <path d="M82.7,70.8V46.5c-2.3,0.5-4.7,0.9-7,0.9h-2.3v28H26.7V42.8c0-13.1,10.3-23.3,
+            23.3-23.3c0.5-6.1,3.3-11.2,7-15.4c-1.4-1.9-4.2-3.3-7-3.3c-5.1,0-9.3,4.2-9.3,9.3v1.4c-14,
+            4.2-23.3,16.8-23.3,31.3v28L8,80.1v4.7h84v-4.7L82.7,70.8 M40.7,89.5c0,5.1,4.2,9.3,9.3,
+            9.3s9.3-4.2,9.3-9.3H40.7 M92,21.8c0,8.9-7.5,16.3-16.3,16.3s-16.3-7.5-16.3-16.3S66.8,5.5,
+            75.7,5.5S92,12.9,92,21.8" />
+        </symbol>
+        <symbol id="searchIcon">
+            <path class="st0" d="M38.7,2.7c19.9,0,36,16.1,36,36c0,9-3.3,17.2-8.7,23.4l31.3,31.3l-3.9,
+            3.9L62.1,66c-6.3,5.4-14.5,8.6-23.4,8.6c-19.9,0-36-16.1-36-36S18.8,2.7,38.7,2.7 M38.7,
+            8.2C21.9,8.2,8.3,21.8,8.3,38.7s13.6,30.5,30.5,30.5s30.5-13.6,30.5-30.5S55.5,8.2,38.7,8.2z" />
+        </symbol>
+
     </svg>
 
 </body>
