@@ -89,31 +89,34 @@
                 </div>
             </a>
         </div>
-        <div class="mainContainer">
-            <div id="header">
-                <div id="headerRow1">
-                    <!-- <svg class="headerIcons" viewbox="0 0 100 100">
-                        <use href="#searchIcon" />
-                    </svg>
-                    <input type="search"> -->
-                    <form action="" class="searchBar">
-                        <button type="submit">
-                            <svg class="headerIcons searchIcon" viewbox="0 0 100 100">
-                                <use href="#searchIcon" />
-                            </svg></button>
-                        <input type="text" placeholder="Search">
-                    </form>
-                    <svg class="headerIcons" viewbox="0 0 100 100">
-                        <use href="#iconNotification" />
-                    </svg>
-                    <img src="Avatars/MorganAvatar.png" alt="morgan" id="morganAvatar">
-                    <div>morgan oakley</div>
-                </div>
-
-            </div>
-            <div id="main">
+        <div id="header">
+            <div id="headerRow1">
+                <form action="" class="searchBar">
+                    <button type="submit">
+                        <svg class="headerIcons searchIcon" viewbox="0 0 100 100">
+                            <use href="#searchIcon" />
+                        </svg></button>
+                    <input type="text" placeholder=" Search" class="input searchBar">
+                </form>
+                <svg class="headerIcons" viewbox="0 0 100 100">
+                    <use href="#iconNotification" />
+                </svg>
+                <img src="Avatars/MorganAvatar.png" alt="morgan" id="morganAvatar">
+                <div class="userName">morgan oakley</div>
             </div>
         </div>
+        <div id="main">
+            <div style="padding: 5px; text-transform: capitalize;">your projects</div>
+            <div id="projectsContainer">
+                <div class="projects"></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
+                <div class="projects"></div>
+            </div>
+        </div>
+
     </div>
     <svg style="display: none;">
         <symbol id="iconDashboard">
@@ -186,9 +189,10 @@
             75.7,5.5S92,12.9,92,21.8" />
         </symbol>
         <symbol id="searchIcon">
-            <path class="st0" d="M38.7,2.7c19.9,0,36,16.1,36,36c0,9-3.3,17.2-8.7,23.4l31.3,31.3l-3.9,
-            3.9L62.1,66c-6.3,5.4-14.5,8.6-23.4,8.6c-19.9,0-36-16.1-36-36S18.8,2.7,38.7,2.7 M38.7,
-            8.2C21.9,8.2,8.3,21.8,8.3,38.7s13.6,30.5,30.5,30.5s30.5-13.6,30.5-30.5S55.5,8.2,38.7,8.2z" />
+            <path d="M37.4,1c20.1,0,36.4,16.3,36.4,36.4c0,9-3.3,17.3-8.7,23.7l1.5,1.5H71l28,28L90.6,
+            99l-28-28v-4.4l-1.5-1.5c-6.4,5.4-14.7,8.7-23.7,8.7C17.3,73.8,1,57.5,1,37.4S17.3,1,37.4,
+            1 M37.4,12.2c-14,0-25.2,11.2-25.2,25.2s11.2,25.2,25.2,25.2s25.2-11.2,25.2-25.2S51.4,12.2,
+            37.4,12.2z" />
         </symbol>
 
     </svg>
